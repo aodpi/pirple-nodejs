@@ -1,0 +1,8 @@
+stages:
+- name: run
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: node index.js
+timeout: 60
+notification: {}
